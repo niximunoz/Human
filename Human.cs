@@ -41,7 +41,4 @@ class Human
         return newHealt;
     }
 }
-/*Ahora agregue un nuevo método llamado Ataque, que cuando se invoca, debería reducir la salud de un objeto Humano que se pasa como parámetro. 
-El daño realizado debe ser 3 * fuerza (3 puntos de daño al atacado, por cada 1 punto de fuerza del atacante). 
-Este método debería devolver el estado restante del objeto de destino.*/
 

@@ -21,8 +21,8 @@ class Program
         persona2.PrintHuman();
         
 
-        Human salud = persona1.Attack(persona2);
-        Console.WriteLine(salud);
+        int salud = persona1.Attack(persona2);
+        Console.WriteLine($"Healt persona1: {salud}");
 
         
     }
